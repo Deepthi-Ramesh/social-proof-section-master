@@ -1,0 +1,329 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    width:100%;
+    height:95vh;
+    font-size: 15px;
+    font-family: 'Spartan', sans-serif;
+    background-color:  hsl(0, 0%, 100%);
+}
+
+.container{
+    width:80%;
+    height:89vh;
+    margin: 2rem  auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    border:1px solid white;
+    box-shadow: 0px  0px 1px 1px  rgb(201, 197, 197);
+}
+.flex1{
+    width:85%;
+    height:50%;
+    margin:auto;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+.flex2{
+    width:80%;
+    height:50%;
+    margin:auto;
+    display: flex;
+    justify-content: space-around;
+}
+.flex-item1{
+    width:50%;
+    height:100%;
+    padding:1rem;
+    display: flex;
+    flex-direction: column;
+}
+.flex-item2{
+    width:50%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.item1{
+    width:100%;
+    height:auto;
+    padding:1rem;
+    color:hsl(300, 43%, 22%);
+    font-size: 1.1rem;
+    font-weight: 1200;
+    
+}
+.item2{
+    width:90%;
+    height:auto;
+    padding:0 0 0 1rem;
+    font-size:0.65rem ;
+    font-weight: 400;
+    color:hsl(303, 10%, 53%);
+    text-shadow: 0 0 2px rgb(112, 109, 109);
+}
+.item3{
+    width:75%;
+    height:auto;
+    border-radius:0.3rem;
+    color:hsl(300, 43%, 22%);
+    font-weight: 600;
+    padding:0.3rem;
+    margin:2rem 0 1rem 1rem;
+    font-size:0.75rem;
+    background-color: hsl(300, 24%, 96%);
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.item4{
+    width:80%;
+    height:auto;
+    border-radius:0.3rem;
+    color:hsl(300, 43%, 22%);
+    font-weight: 600;
+    padding:0.3rem;
+    margin:1rem 0 1rem 3rem;
+    font-size:0.75rem;
+    background-color: hsl(300, 24%, 96%);
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.item5{
+    width:75%;
+    height:auto;
+    border-radius:0.3rem;
+    color:hsl(300, 43%, 22%);
+    font-weight: 600;
+    padding:0.3rem;
+    margin:1rem 0 1rem 5rem ;
+    font-size:0.75rem;
+    background-color: hsl(300, 24%, 96%);
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.item6{
+    width:29.5%;
+    height:60%;
+    margin:0.7rem 0 0 1.5rem;
+    padding:1.5rem;
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 0.4rem;
+
+}
+.item7{
+    width:29%;
+    height:60%;
+    margin:1.7rem 0 0 0;
+    padding:1.5rem;
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 0.4rem;
+}
+.item8{
+    width:29%;
+    height:60%;
+    margin:2.7rem 0 0 0;
+    padding:1.5rem;
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 0.4rem;
+}
+.star{
+    width:35%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.img{
+    float:left;
+    width:25%;
+    
+}
+.img>img{
+    border-radius: 50%;
+    width: 60%;
+    height: 60%;
+}
+.person{
+    font-size: 0.65rem;
+    font-weight: 600;
+    color: hsl(0, 0%, 100%,0.7);
+    margin:0.3rem;
+    text-shadow: 0 0 2px rgb(147, 131, 153);
+}
+.person-edu{
+    font-size:0.6rem;
+    font-weight: 500;
+    color: hsl(333, 80%, 67%,0.6);
+}
+.person-review{
+    font-size: 0.59rem;
+    font-weight: 300;
+    margin:1.1rem 0 0 0;
+    color:hsl(0, 0%, 100%,0.75); 
+    line-height: 1rem;
+}
+.attribution{
+    margin:0.7rem;
+    font-size: 0.9rem;
+}
+.attribution>a{
+    color:blue;
+}
+@media (min-width:0) and (max-width:675px)
+{
+   body{
+       width:100%;
+       height:auto;
+       display:flex;
+       flex-direction: column;
+   }
+   .container{
+       width:100%;
+       height:auto;
+    }
+    .flex1{
+        width:100%;
+        display:flex;
+        flex-direction: column;
+        margin:0;
+        padding:0;
+       
+    }
+    .flex-item1{
+        width:100%;
+        height:auto;
+        margin:0;
+        padding:1rem;
+        display: flex;
+        justify-content: center;
+       
+
+    }
+    .item1{
+        width:90%;
+        height: 100%;
+        margin:1rem;
+        padding:0;
+        font-size: 0.9rem;
+        font-weight: 700;
+        text-align: center;
+        
+    }
+    .item2{
+        width:100%;
+     
+        font-size: 0.85rem;
+        line-height: 1.5rem;
+        text-shadow: none;
+        text-align: center;
+        padding:0.5rem;
+        margin:0.9rem 0;
+    }
+    .flex-item2{
+        width:100%;
+        padding:0;
+        display: flex;
+        justify-content: center;
+        
+    }
+    .item3{
+        width:90%;
+        height:auto;
+        margin:1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 0.9rem;
+    }
+    .item4{
+        width:90%;
+        height:auto;
+        margin:1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        font-size: 0.9rem;
+    }
+    .item5{
+        width:90%;
+        height:auto;
+        margin:1rem;
+        display: flex;
+        flex-direction: column;
+        
+        align-items: center;
+        font-size: 0.9rem;
+    }
+    .flex2{
+        width:100%;
+        display:flex;
+        flex-direction: column;
+        padding:0;
+    
+    }
+    .item6{
+        width:90%;
+        height:14rem;
+        padding:2rem;
+        margin:1rem;
+        
+    }
+    .item7{
+        width:90%;
+        height:14rem;
+        padding:2rem;
+        margin:1rem;
+    }
+    .item8{
+        width:90%;
+        height:14rem;
+        padding:2.3rem;
+        margin:1rem;
+    }
+    .person{
+        font-size: 0.8rem;
+        font-weight: 600;
+        color: hsl(0, 0%, 100%,0.7);
+        margin:0.3rem;
+        text-shadow: 0 0 2px rgb(147, 131, 153);
+    }
+    .person-edu{
+        font-size:0.8rem;
+        font-weight: 500;
+        color: hsl(333, 80%, 67%,0.6);
+    }
+    .person-review{
+        font-size: 0.78rem;
+        font-weight: 300;
+        margin:1.1rem 0 0 0;
+        color:hsl(0, 0%, 100%,0.75); 
+        line-height: 1.3rem;
+    }
+    .star{
+        display: flex;
+        justify-content: space-between;
+        margin:0.6rem 0;
+    }
+    .star>img{
+        margin:0.2rem;
+    }
+    .attribution{
+        margin:0.7rem;
+        font-size: 0.9rem;
+    }
+    .attribution>a{
+        color:blue;
+    }
+    
+
+}
